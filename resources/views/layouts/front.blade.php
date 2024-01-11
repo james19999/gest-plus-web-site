@@ -47,7 +47,7 @@
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="m-0" style="color: white;">GEST +</h1>
-                    <!-- <img src="{{ asset('img/logo.png') }}" alt="Logo"> -->
+                     {{--  <img src="{{ asset('img/logo.png') }}" alt="Logo">  --}}
                 </a>
                 <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
                         <!-- <a href="#testimonial" class="nav-item nav-link">Testimonial</a> -->
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="#overview" class="btn btn-light rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Démo</a>
+                    <a href="https://www.youtube.com/watch?v=Wc_7erEGHKM" class="btn btn-light rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Démo</a>
                 </div>
             </nav>
 
@@ -157,7 +157,8 @@
             <div class="container" i>
                 <div class="row g-5 py-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp " data-wow-delay="0.1s">
-                        <iframe   width="570" height="430" src="https://www.youtube.com/embed/Wc_7erEGHKM?si=wFOT9iMNMcq5exHo&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <img class="img-fluid rounded" src="{{ asset('img/about.jpeg') }}">
+                        {{--  <iframe   width="570" height="430" src="https://www.youtube.com/embed/Wc_7erEGHKM?si=wFOT9iMNMcq5exHo&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  --}}
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="d-flex align-items-center mb-4">
