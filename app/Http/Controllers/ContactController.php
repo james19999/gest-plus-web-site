@@ -20,7 +20,7 @@ class ContactController extends Controller
      ]);
      $contact = Contact::create($request->all());
 
-     Mail::to('komlanahiakpor23@gmail.com')->send(new Subscibtion($contact));
+     Mail::to('contact@gest-plus.com')->send(new Subscibtion($contact));
      return back()->with('success','Souscription réussie ! Une équipe vous contactera pour procéder au paiement  .');
 
     }
