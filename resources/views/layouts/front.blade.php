@@ -370,7 +370,7 @@
                                 <div class="text-white">
                                     <span style="color: white;" class="align-top fs-4 fw-bold">€</span>
                                     <h1 style="color: white;" class="d-inline display-6  mb-0">00.00</h1>
-                                    <span style="color: white;" class="align-baseline">/Mois</span>
+                                    <span style="color: white;" class="align-baseline">/ 1 Mois</span>
                                 </div>
                             </div>
                             <div class="p-4">
@@ -537,7 +537,7 @@
                                     <div class="form-floating">
 
                                       <select name="tarif" {{ old('tarif') }} id="" class="form-control">
-                                         <option value="Standard">Standard (€ 00.00 /Mois)</option>
+                                         <option value="Standard">Standard (€ 00.00 / 1 Mois)</option>
                                          <option value="Professionnel">Professionnel (€ 20.99 / Mois)</option>
                                          <option value="Ultime">Ultime (€ 30.99 / Mois)</option>
                                          <option value="Autre">Autre</option>
