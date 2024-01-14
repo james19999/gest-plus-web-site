@@ -16,6 +16,8 @@ class ContactController extends Controller
         'msg'=>'required',
         'phone'=>'required',
         'tarif'=>'required',
+        'domaine'=>'required',
+        'company_name'=>'required',
 
      ]);
      $contact = Contact::create($request->all());

@@ -61,6 +61,8 @@
               <span>Téléphone : {{ $Phone}}</span><br>
               <span>Email : {{ $Email }}</span><br>
               <span>Tarif : {{ $Tarif }}</span><br>
+              <span>Nom de l'entreprise : {{ $Companyname }}</span> <br>
+              <span>Domaine : {{ $Domaine }}</span> <br>
               <span>Message : {{ $Msg }}</span>
             </p>
         </div>

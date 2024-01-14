@@ -45,6 +45,8 @@ class Subscibtion extends Mailable
                 'Email' => $this->contact->email,
                 'Msg' => $this->contact->msg,
                 'Tarif' => $this->contact->tarif,
+                'Domaine' => $this->contact->domaine,
+                'Companyname' => $this->contact->company_name,
 
             ],
         );

@@ -14,6 +14,8 @@ class Contact extends Model
         'email',
         'msg',
         'tarif',
+        'domaine',
+        'company_name',
 
     ];
 }

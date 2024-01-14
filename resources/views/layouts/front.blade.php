@@ -533,6 +533,20 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
+                                    <label for="tel">Le nom de votre entreprise</label>
+                                    <div class="form-floating">
+                                        <input type="tel" name="company_name"  {{ old('company_name') }} required class="form-control" id="tel" placeholder="Le nom de votre entreprise">
+
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="tel">Domaine d'activité</label>
+                                    <div class="form-floating">
+                                        <input type="tel" name="domaine"  {{ old('domaine') }} required class="form-control" id="tel" placeholder="Domaine d'activité">
+
+                                    </div>
+                                </div>
+                                <div class="col-12">
                                     <label for="Plan">Plan tarifaire</label>
                                     <div class="form-floating">
 
