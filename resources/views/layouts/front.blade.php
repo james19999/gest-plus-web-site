@@ -29,6 +29,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <meta name="google-site-verification" content="FUiLOtJHz7BfaiJlSME-eFqvDPsZ0SIduOpkwpfZ8jw" />
 </head>
 
 <body>
